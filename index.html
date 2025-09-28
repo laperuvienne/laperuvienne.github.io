@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - La Peruvienne</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff0000 50%, #ffffff 50%);
+      margin: 0;
+      padding: 0;
+    }
+    .menu-container {
+      background: rgba(255,255,255,0.95);
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #b71c1c;
+      margin-bottom: 10px;
+    }
+    .slogan {
+      text-align: center;
+      font-size: 1.2em;
+      font-style: italic;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #d32f2f;
+      border-bottom: 2px solid #d32f2f;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    .section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .item {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: flex;
+      align-items: center;
+    }
+    .item img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .item-content {
+      padding: 15px;
+    }
+    .item-title {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      color: #b71c1c;
+      display: flex;
+      justify-content: space-between;
+    }
+    .item-desc {
+      font-size: 0.95em;
+      color: #333;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 1em;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>La Peruvienne</h1>
+    <div class="slogan">« Goûtez le Pérou au cœur de Lyon »</div>
+
+    <h2>Entrées</h2>
+    <div class="section">
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\tequenos.jpg" alt="Tequeños">
+        <div class="item-content">
+          <div class="item-title">Tequeños <span>10 €</span></div>
+          <div class="item-desc">Bâtonnets croustillants farcis au fromage, servis avec sauce crémeuse.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\papa.jpg" alt="Papa a la Huancaína">
+        <div class="item-content">
+          <div class="item-title">Papa a la Huancaína <span>10 €</span></div>
+          <div class="item-desc">Pommes de terre nappées de sauce au fromage et piment jaune.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\empanadas.jpg" alt="Empanadas">
+        <div class="item-content">
+          <div class="item-title">Empanadas <span>12 €</span></div>
+          <div class="item-desc">Pâtisseries farcies à la viande ou au poulet, dorées au four.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\causa.jpg" alt="Causa">
+        <div class="item-content">
+          <div class="item-title">Causa <span>12 €</span></div>
+          <div class="item-desc">Purée de pommes de terre au citron vert, garnie de poulet et avocat.</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Plats principaux</h2>
+    <div class="section">
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\pollo.jpg" alt="Pollo a la Plancha">
+        <div class="item-content">
+          <div class="item-title">Pollo a la Plancha <span>16 €</span></div>
+          <div class="item-desc">Poulet grillé servi avec garniture maison.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\chaufa.jpg" alt="Arroz Chaufa">
+        <div class="item-content">
+          <div class="item-title">Arroz Chaufa (carne ou poulet) <span>18 €</span></div>
+          <div class="item-desc">Riz sauté au wok, légumes croquants et touche asiatique.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\arrozpollo.jpg" alt="Arroz con Pollo">
+        <div class="item-content">
+          <div class="item-title">Arroz con Pollo <span>18 €</span></div>
+          <div class="item-desc">Riz vert parfumé à la coriandre, servi avec poulet tendre.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\lomo.jpg" alt="Lomo Saltado">
+        <div class="item-content">
+          <div class="item-title">Lomo Saltado <span>20 €</span></div>
+          <div class="item-desc">Bœuf sauté avec oignons, tomates et frites croustillantes.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\ceviche.jpg" alt="Ceviche">
+        <div class="item-content">
+          <div class="item-title">Ceviche <span>22 €</span></div>
+          <div class="item-desc">Poisson cru mariné au citron vert, oignons rouges et coriandre.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\combo.jpg" alt="Combo">
+        <div class="item-content">
+          <div class="item-title">Combo <span>25 €</span></div>
+          <div class="item-desc">Causa + Ceviche ou Papa a la Huancaína + Arroz con Pollo.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\kids.jpg" alt="Menu Enfant">
+        <div class="item-content">
+          <div class="item-title">Menu Enfant (Salchipapa + boisson) <span>10 €</span></div>
+          <div class="item-desc">Plat simple et savoureux pour les plus petits.</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Boissons</h2>
+    <div class="section">
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\cocktails.jpg" alt="Cocktails">
+        <div class="item-content">
+          <div class="item-title">Cocktails <span>8 €</span></div>
+          <div class="item-desc">Cocktails maison à base de fruits tropicaux.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\limonade.jpg" alt="Limonade">
+        <div class="item-content">
+          <div class="item-title">Limonade <span>7 €/jarre – 4 €/verre</span></div>
+          <div class="item-desc">Boisson rafraîchissante au citron vert.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\chicha.jpg" alt="Chicha Morada">
+        <div class="item-content">
+          <div class="item-title">Chicha Morada <span>10 €/jarre – 4 €/verre</span></div>
+          <div class="item-desc">Boisson traditionnelle de maïs violet, cannelle et ananas.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Maik-\Pictures\Resto\boisson.jpg" alt="Boisson Canette">
+        <div class="item-content">
+          <div class="item-title">Boisson Canette <span>3 €</span></div>
+          <div class="item-desc">Sélection de sodas et boissons gazeuses.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      📍 56 Av. Paul Santy, 69008 - Lyon
+    </div>
+  </div>
+</body>
+</html>
