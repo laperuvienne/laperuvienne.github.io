@@ -18,11 +18,22 @@
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 10px;
+    }
+    .header img {
+      height: 70px;
+      width: 70px;
+      object-fit: contain;
+    }
     h1 {
-      text-align: center;
       font-size: 3em;
       color: #b71c1c;
-      margin-bottom: 10px;
+      margin: 0;
     }
     .slogan {
       text-align: center;
@@ -58,6 +69,7 @@
     }
     .item-content {
       padding: 15px;
+      width: 100%;
     }
     .item-title {
       font-weight: bold;
@@ -81,7 +93,10 @@
 </head>
 <body>
   <div class="menu-container">
-    <h1>La Peruvienne</h1>
+    <div class="header">
+      <img src="logo.png" alt="Logo La Peruvienne">
+      <h1>La Peruvienne</h1>
+    </div>
     <div class="slogan">« Goûtez le Pérou au cœur de Lyon »</div>
 
     <h2>Entrées</h2>
@@ -207,5 +222,6 @@
   </div>
 </body>
 </html>
+
 
 
